@@ -101,6 +101,7 @@ RUN conda install \
         matplotlib \
         pandas \
         pyyaml \
+        tabulate \
         tensorboard \ 
     && conda clean -ya
 
