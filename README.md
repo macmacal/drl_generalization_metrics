@@ -13,7 +13,7 @@ The all dependencies of this project are packed into a single [Docker Container]
 
 TL;DR for your convenience: to run this project, you only need to install [Docker Engine](https://docs.docker.com/engine/install/) and [Docker Compose](https://docs.docker.com/compose/) on your machine. The project have been developed and tested on `Ubuntu 22.04` and `Arch Linux`.
 
-Having a working instance of `Docker Engine` & `Docker Compose`:
+After obtaining working `Docker Engine` & `Docker Compose`:
 
 1. Create the project workspace directory (i.e. `/home/$USER/drl_ws` or just clone this repoistory). Move all code files to that directory. 
 2. In the project folder, enter the `docker` subdirectory.
