@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+title: DeepRL Generalization Metrics
+message: >-
+  If you use this software, please cite the corresponding research article.
+type: software
+authors:
+  - given-names: Maciej
+    family-names: Aleksandrowicz
+    email: macal@agh.edu.pl
+    affiliation: AGH University of Krakow
+    orcid: 'https://orcid.org/0000-0003-3388-5653'
+identifiers:
+  - type: doi
+    value: 10.2478/jaiscr-2024-0003
+    description: >-
+      Metrics for Assessing Generalization of Deep
+      Reinforcement Learning in Parameterized Environments
+preferred-citation:
+  type: article
+  authors:
+  - given-names: Maciej
+    family-names: Aleksandrowicz
+    email: macal@agh.edu.pl
+    affiliation: AGH University of Krakow
+    orcid: 'https://orcid.org/0000-0003-3388-5653'
+  - given-names: Joanna
+    family-names: Jaworek-Korjakowska
+    email: jaworek@agh.edu.pl
+    affiliation: AGH University of Krakow
+    orcid: 'https://orcid.org/0000-0003-0146-8652'
+  doi: "10.2478/jaiscr-2024-0003"
+  journal: "Journal of Artificial Intelligence and Soft Computing Research"
+  month: 12
+  start: 45 # First page number
+  end: 61 # Last page number
+  title: "Metrics for Assessing Generalization of Deep Reinforcement Learning in Parameterized Environments"
+  issue: 1
+  volume: 14
+  year: 2023
