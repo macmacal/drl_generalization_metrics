@@ -30,7 +30,8 @@ SOFTWARE.
 
 import numpy as np
 from gym import core, spaces
-from ray.rllib.env.wrappers.dm_control_wrapper import _flatten_obs, _spec_to_box
+from ray.rllib.env.wrappers.dm_control_wrapper import (_flatten_obs,
+                                                       _spec_to_box)
 from ray.rllib.utils.annotations import PublicAPI
 
 try:
