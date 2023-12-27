@@ -8,7 +8,11 @@
 ![fig2_methodlogy](./figures/fig2_methodlogy.png)
 > **Figure 2**: The methodology used in this work. First, the agents are trained in a fixed environment. Then an evaluation procedure is performed on the transferred agent to a slightly changed environment. Please note, that from the perspective of the agent the space and observation domain are the same — only the underlying dynamics of the environment are different. Finally, the obtained results (in terms of total reward) are used to calculate generalization metrics.
 
-This repository contains code for the research article.
+> [!NOTE]  
+> This repository contains code for the research article.
+
+> [!IMPORTANT]  
+> The underlying code was used for reserach, not for production. Proceed with caution.
 
 ## Running the project container
 The all dependencies of this project are packed into a single [Docker Container](https://www.docker.com/resources/what-container/).
@@ -17,15 +21,27 @@ TL;DR for your convenience: to run this project, you only need to install [Docke
 
 After obtaining working `Docker Engine` & `Docker Compose`:
 
-1. Create the project workspace directory (i.e. `/home/$USER/drl_ws` or just clone this repoistory). Move all code files to that directory. 
-2. In the project folder, enter the `docker` subdirectory.
-3. Edit the bind-mount paths in `docker-compose.yaml` file (i.e. change `/home/macal/paper_ws` to your's project path). You need to specify the workspace directory, `zshrc` and `zsh_history` files.
+1. Create the project workspace directory or just clone this repository with prepared `ws` folder.
+2. Enter the `docker` directory.
+3. Edit the bind-mount paths in `docker-compose.yaml` file (i.e. change `/home/macal/paper_ws` to your's project path `ws`). You need to specify the workspace directory, `zshrc` and `zsh_history` files.
 4. Inside the `docker` subdirectory, build and run the container:
 ```bash
 docker-compose build
 docker-compose up
 ```
 5. The entrypoint of the project will start a local Jupyter Lab instance. Please click on the link inside the terminal to proeced further.
+
+## Project strcture
+Inside the `ws` you can find:
+
+- `dmc_custom_envs` folder with hacked DMC Benchmark Suite environemnts, which allows to parametrize one constant variable in the environment,
+- `check_gpu.ipnyb` - a simple sanity check for GPU detection,
+- `evaluation.ipnyb` - notebook for running trained models on parametrized environemnts,
+- `generate_charts.ipnyb` - notebook for generating charts,
+- `training.ipnyb` - notebook for training models on DMC suite.
+
+> [!TIP]
+> The results were obtained by running: 1. training, 2. evalution, 3. chart generation.
 
 ---
 

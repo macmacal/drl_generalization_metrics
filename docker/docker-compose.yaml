@@ -7,9 +7,9 @@ services:
     network_mode: host
     shm_size: 11gb
     volumes:
-      - /home/macal/paper_ws:/mnt/ws
-      - /home/macal/paper_ws/zshrc_docker:/home/user/.zshrc
-      - /home/macal/paper_ws/zsh_history_docker:/home/user/.zsh_history
+      - /home/macal/ws:/mnt/ws
+      - /home/macal/ws/zshrc_docker:/home/user/.zshrc
+      - /home/macal/ws/zsh_history_docker:/home/user/.zsh_history
       - /tmp/.X11-unix:/tmp/.X11-unix
     command: zsh
     env_file: env
