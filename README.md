@@ -2,7 +2,7 @@
 ### [Paper](https://sciendo.com/article/10.2478/jaiscr-2024-0003)
 
 > "Metrics for Assessing Generalization of Deep Reinforcement Learning in Parameterized Environments"<br/>
-> [Maciej Aleksandrowicz](macmacal.github.io), [Joanna Jaworek-Korjakowska](https://home.agh.edu.pl/~jaworek/)<br/>
+> [Maciej Aleksandrowicz](https://macmacal.github.io), [Joanna Jaworek-Korjakowska](https://home.agh.edu.pl/~jaworek/)<br/>
 > [Machine Vision Group](https://home.agh.edu.pl/~mdig/) 2023
 
 
