@@ -27,6 +27,8 @@ docker-compose up
 ```
 5. The entrypoint of the project will start a local Jupyter Lab instance. Please click on the link inside the terminal to proeced further.
 
+---
+
 ## Figures
 The published version of our article contains only raster images. To adress that inconvenience we provide the orignal vector files in the `figures` subfolder.
 
