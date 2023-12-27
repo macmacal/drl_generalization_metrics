@@ -27,7 +27,7 @@ If you find this code useful for your research, please cite our work with the fo
 }
 ```
 
-Here is the MLA format for direct copy:
+For your convenience, here is the citation in MLA formatting:
 > Aleksandrowicz, Maciej and Jaworek-Korjakowska, Joanna. "Metrics for Assessing Generalization of Deep Reinforcement Learning in Parameterized Environments" Journal of Artificial Intelligence and Soft Computing Research, vol.14, no.1, 2023, pp.45-61. https://doi.org/10.2478/jaiscr-2024-0003
 
 ---
