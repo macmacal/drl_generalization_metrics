@@ -5,6 +5,8 @@
 > [Maciej Aleksandrowicz](https://macmacal.github.io), [Joanna Jaworek-Korjakowska](https://home.agh.edu.pl/~jaworek/)<br/>
 > [Machine Vision Group](https://home.agh.edu.pl/~mdig/) 2023
 
+![fig2_methodlogy](./figures/fig2_methodlogy.png)
+> **Figure 2**: The methodology used in this work. First, the agents are trained in a fixed environment. Then an evaluation procedure is performed on the transferred agent to a slightly changed environment. Please note, that from the perspective of the agent the space and observation domain are the same — only the underlying dynamics of the environment are different. Finally, the obtained results (in terms of total reward) are used to calculate generalization metrics.
 
 This repository contains code for the research article.
 
@@ -24,6 +26,11 @@ docker-compose build
 docker-compose up
 ```
 5. The entrypoint of the project will start a local Jupyter Lab instance. Please click on the link inside the terminal to proeced further.
+
+## Figures
+The published version of our article contains only raster images. To adress that inconvenience we provide the orignal vector files in the `figures` subfolder.
+
+Please note, that the figure 3 is taken from [dm_control: Software and tasks for continuous control](https://doi.org/10.1016/j.simpa.2020.100022).
 
 
 
