@@ -1,0 +1,22 @@
+version: "3.9"
+services:
+  rl_dev:
+    container_name: rl_develop
+    build: .
+    image: macmacal/rl_devel:latest
+    network_mode: host
+    shm_size: 11gb
+    volumes:
+      - /home/macal/ws:/mnt/ws
+      - /home/macal/ws/zshrc_docker:/home/user/.zshrc
+      - /home/macal/ws/zsh_history_docker:/home/user/.zsh_history
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    command: zsh
+    env_file: env
+    tty: true
+    stdin_open: true
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
