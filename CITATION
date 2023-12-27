@@ -1,7 +1,6 @@
 cff-version: 1.2.0
 title: DeepRL Generalization Metrics
-message: >-
-  If you use this software, please cite the corresponding research article.
+message: "If you use this software, please cite the corresponding research article."
 type: software
 authors:
   - given-names: Maciej
@@ -16,8 +15,7 @@ identifiers:
       Metrics for Assessing Generalization of Deep
       Reinforcement Learning in Parameterized Environments
 preferred-citation:
-  message: >-
-    If you use this software, please cite the corresponding research article.
+  message: "If you use this software, please cite the corresponding research article."
   type: article
   authors:
   - given-names: Maciej
